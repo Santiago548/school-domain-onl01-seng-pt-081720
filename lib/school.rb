@@ -21,3 +21,4 @@ class School
       name <=> grade
   end
 end
+end
