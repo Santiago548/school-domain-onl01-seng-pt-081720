@@ -17,7 +17,6 @@ class School
   end
 
   def sort
-    sorted = {}
     roster.sort do |name, grade|
       name <=> grade
   end
