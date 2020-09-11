@@ -1,12 +1,8 @@
 class School
 
-  roster = {}
+  attr_accessor :roster
 
-  def initialize(roster)
-    @roster = roster
-  end
-
-  def add_student
-
+  def initialize
+    @roster = {}
   end
 end
